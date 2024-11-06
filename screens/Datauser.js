@@ -7,7 +7,6 @@ const Datauser = () => {
   const [bpm, setBpm] = useState(0);
   const [temp, setTemp] = useState(0.0);
   const [breathsPerSecond, setBreathsPerSecond] = useState(0); 
-
   useEffect(() => {
     const fetchData = () => {
       const apiUrl =
