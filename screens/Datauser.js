@@ -11,7 +11,7 @@ const Datauser = () => {
   useEffect(() => {
     const fetchData = () => {
       const apiUrl =
-        'https://apidb0.azurewebsites.net/api/HttpTrigger1?code=jIX44QZRQ1xgss1z_ckKs6H2_dUnE4rStM7Zvkm34eDRAzFuv5tD-Q==';
+        '******';
 
       fetch(apiUrl)
         .then(response => {

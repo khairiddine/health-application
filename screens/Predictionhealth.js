@@ -12,7 +12,7 @@ const Recommandation = () => {
 
   useEffect(() => {
     const fetchData = () => {
-      const apiUrl = 'https://apidb0.azurewebsites.net/api/HttpTrigger1?code=jIX44QZRQ1xgss1z_ckKs6H2_dUnE4rStM7Zvkm34eDRAzFuv5tD-Q==';
+      const apiUrl = '******';
 
       fetch(apiUrl)
         .then(response => {
@@ -51,7 +51,7 @@ const Recommandation = () => {
   };
 
   const handlePrediction = () => {
-    const apiUrl = `http://192.168.251.201:5000/prediction/?age=${number}&sex=${current === 'Male' ? 0 : 1}&cola=${cholesterol}`;
+    const apiUrl = `http://localhost/prediction/?age=${number}&sex=${current === 'Male' ? 0 : 1}&cola=${cholesterol}`;
 
     fetch(apiUrl)
       .then(response => {
